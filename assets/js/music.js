@@ -15,7 +15,7 @@ audio.volume = 0.5;
 document.body.addEventListener("mousemove", function () {
   setTimeout(() => {
     audio.play();
-  }, 4000);
+  }, 2000);
 });
 
 audio.addEventListener("ended", () => {
