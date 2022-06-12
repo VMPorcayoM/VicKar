@@ -1,0 +1,38 @@
+body{
+    background-color: #455a64;
+    
+}
+#cabecera{
+    height: 30px;
+    background-color: #78002e;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+h1{
+    color: white;
+    font-family: 'Montserrat';
+}
+.contenedor-input{
+    color: white;    
+    margin: 10px 20px 10px 20px;
+    text-align: right; 
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+#iniciar-sesion{
+    background-color: #1c313a;
+    margin: auto;
+    margin-top: 10%;
+    width:fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+    text-align: center; 
+}
+.button{
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #78002e;
+    color:white;
+    padding: 5px;
+}
