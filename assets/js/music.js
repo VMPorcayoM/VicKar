@@ -3,6 +3,7 @@ const canciones = [
   "deantes",
   "esoymas",
   "tudequevas",
+  "noescasual",
   "morethanwords",
   "lacomplicidad",
   "cuandoestoycontigo",
@@ -23,7 +24,7 @@ audio.addEventListener("ended", () => {
 });
 function playmorethawords() {
   pos++;
-  if (pos > 3) {
+  if (pos > canciones.length-1) {
     pos = 0;
   }
   audio.src = "audio/" + canciones[pos] + ".mp3";
