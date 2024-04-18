@@ -32,7 +32,7 @@ body {
   p{
     font-size: 20px;
   }
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 h1, p {
 	margin-bottom: clamp(.5rem, 2%, 1rem);
